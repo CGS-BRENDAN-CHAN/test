@@ -25,6 +25,16 @@ class ViewController: UIViewController {
         println("This is an average feature!");
     
     }
+    
+    func featurey() {
+        
+        for 1 in ..0 {
+            
+            println("Hello World")
+            
+        }
+        
+    }
 
 
 }
