@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     func featurey() {
         
-        for 1 in ..10 {
+        var featurev {
             
             println("Hello World")
             
