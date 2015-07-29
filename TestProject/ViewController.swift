@@ -22,13 +22,14 @@ class ViewController: UIViewController {
     func averageFeature() {
     
         //This line of code needed a comment
+        //Another line of commenting
         println("This is an average feature!");
     
     }
     
     func featurey() {
         
-        for 1 in ..0 {
+        for 1 in ..10 {
             
             println("Hello World")
             
