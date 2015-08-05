@@ -33,7 +33,7 @@ class secondViewController: UIViewController {
     */
     
     func something() {
-        
+        // This code prints the word something
         println("something")
         
     }
