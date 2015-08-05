@@ -27,13 +27,9 @@ class ViewController: UIViewController {
     
     }
     
-    func featurey() {
+    func helloWorld() {
         
-        var featurev {
-            
-            println("Hello World")
-            
-        }
+        println("Hello World")
         
     }
 

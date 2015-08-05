@@ -13,6 +13,7 @@
 		E5258A491B61D93900200846 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5258A481B61D93900200846 /* Images.xcassets */; };
 		E5258A4C1B61D93900200846 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5258A4A1B61D93900200846 /* LaunchScreen.xib */; };
 		E5258A581B61D93900200846 /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5258A571B61D93900200846 /* TestProjectTests.swift */; };
+		E5258A621B719E4F00200846 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5258A611B719E4F00200846 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E5258A511B61D93900200846 /* TestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5258A561B61D93900200846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5258A571B61D93900200846 /* TestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectTests.swift; sourceTree = "<group>"; };
+		E5258A611B719E4F00200846 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E5258A411B61D93900200846 /* AppDelegate.swift */,
 				E5258A431B61D93900200846 /* ViewController.swift */,
+				E5258A611B719E4F00200846 /* secondViewController.swift */,
 				E5258A451B61D93900200846 /* Main.storyboard */,
 				E5258A481B61D93900200846 /* Images.xcassets */,
 				E5258A4A1B61D93900200846 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5258A441B61D93900200846 /* ViewController.swift in Sources */,
+				E5258A621B719E4F00200846 /* secondViewController.swift in Sources */,
 				E5258A421B61D93900200846 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				E5258A5D1B61D93900200846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5258A5E1B61D93900200846 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				E5258A601B61D93900200846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
